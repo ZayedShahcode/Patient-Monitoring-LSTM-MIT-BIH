@@ -398,10 +398,6 @@ class ECGStreamSimulator:
         return beat, is_anomaly
 
 
-# ══════════════════════════════════════════════════════════════
-#  MAIN DASHBOARD
-# ══════════════════════════════════════════════════════════════
-
 def main_dashboard():
     """Main dashboard interface."""
     
