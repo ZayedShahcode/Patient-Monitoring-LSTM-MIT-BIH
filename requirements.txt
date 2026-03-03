@@ -1,6 +1,27 @@
+# Generated from MIT_BIH_Patient_Monitoring.ipynb
+# Core numerical + data
+numpy>=1.24
+scipy>=1.10
+pandas>=2.1
+
+# Plotting / viz
+matplotlib>=3.7
+seaborn>=0.12
+plotly>=5.14
+
+# Machine learning / utilities
+scikit-learn>=1.2
+imbalanced-learn>=0.11
+tqdm>=4.65
+
+# ECG / MIT-BIH utilities
+wfdb>=4.1
+
+# PyTorch (GPU if available)
+torch>=2.1
+
+# Optional / app (kept from previous file)
 streamlit==1.28.0
-numpy
-pandas
-plotly
-torch
-scikit-learn
+
+# Notes:
+# - If running in Google Colab, you can install `google-colab` (optional).
